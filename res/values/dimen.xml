@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_height">315px</dimen>
+    <dimen name="view_width">560px</dimen>
+    <dimen name="layout_padding">80px</dimen>
+    <dimen name="view_margin">40px</dimen>
+</resources>

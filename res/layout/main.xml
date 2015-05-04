@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_player"
+            android:background="@android:color/black"
+            android:layout_width="@dimen/view_width"
+            android:layout_height="@dimen/view_height"
+            android:focusable="true"
+            android:layout_marginLeft="@dimen/layout_padding">
+
+            <VideoView
+                android:id="@+id/vv_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv0"
+            android:layout_width="@dimen/view_width"
+            android:layout_height="@dimen/view_height"
+            android:layout_marginStart="@dimen/view_margin"
+            android:focusable="true"
+            android:background="@drawable/ps"/>
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="@dimen/view_width"
+            android:layout_height="@dimen/view_height"
+            android:layout_marginStart="@dimen/view_margin"
+            android:focusable="true"
+            android:background="@drawable/xbox"/>
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="@dimen/view_width"
+            android:layout_height="@dimen/view_height"
+            android:layout_marginStart="@dimen/view_margin"
+            android:focusable="true"
+            android:background="@drawable/ps"/>
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="@dimen/view_width"
+            android:layout_height="@dimen/view_height"
+            android:layout_marginStart="@dimen/view_margin"
+            android:focusable="true"
+            android:background="@drawable/xbox"/>
+    </LinearLayout>
+
+</HorizontalScrollView>
+

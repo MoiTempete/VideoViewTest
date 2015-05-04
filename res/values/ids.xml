@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="view_layout_params"/>
+    <item type="id" name="view_visibility"/>
+    <item type="id" name="view_full_screen"/>
+    <item type="id" name="padding_top"/>
+    <item type="id" name="padding_bottom"/>
+    <item type="id" name="padding_left"/>
+    <item type="id" name="padding_right"/>
+    <item type="id" name="padding_start"/>
+    <item type="id" name="padding_end"/>
+</resources>
